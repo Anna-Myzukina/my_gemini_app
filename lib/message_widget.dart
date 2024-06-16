@@ -11,9 +11,15 @@ class MessageWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
+      mainAxisAlignment: isFromUser ? MainAxisAlignment.end : MainAxisAlignment.start,
       children: [
         Flexible(
-            child: Container(
+          child: Container(
+          padding: const EdgeInsets.symmetric(
+            vertical: 15,
+            horizontal: 20
+          ),
+          margin: const EdgeInsets.only(bottom: 10),
           constraints: const BoxConstraints(maxWidth: 520),
           decoration: BoxDecoration(
               color: isFromUser
@@ -23,7 +29,8 @@ class MessageWidget extends StatelessWidget {
           child: Column(
             children: [
               // flutter pub add flutter_markdown
-              MarkdownBody(data: text)
+              MarkdownBody(
+                data: text,)
             ],
           ),
         ))
