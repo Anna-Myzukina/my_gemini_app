@@ -15,11 +15,11 @@ class MessageWidget extends StatelessWidget {
       children: [
         Flexible(
           child: Container(
-          padding: const EdgeInsets.symmetric(
+          padding: EdgeInsets.symmetric(
             vertical: 15,
-            horizontal: 20
+            horizontal: 25
           ),
-          margin: const EdgeInsets.only(bottom: 10),
+          margin: EdgeInsets.all(8.0),
           constraints: const BoxConstraints(maxWidth: 520),
           decoration: BoxDecoration(
               color: isFromUser
@@ -29,8 +29,7 @@ class MessageWidget extends StatelessWidget {
           child: Column(
             children: [
               // flutter pub add flutter_markdown
-              MarkdownBody(
-                data: text,)
+              MarkdownBody(data: text)
             ],
           ),
         ))
