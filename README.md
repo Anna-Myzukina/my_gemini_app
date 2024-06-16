@@ -4,6 +4,8 @@ Here's the tutorial refined with expanded explanations, clear examples, and the 
 using both flutter_dotenv package for development and flutter_secure_storage package for production
 & as an additional method we'll take a look at String.fromEnvironment('API_KEY') method.
 
+![img](https://cdn-images-1.medium.com/v2/resize:fit:800/1*icp7ZufCv8eacKWkmKB27w.png)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
