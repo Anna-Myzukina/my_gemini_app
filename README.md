@@ -37,7 +37,7 @@ Feel free to check the [issues page](issues/).
 
 ## 📝 License
 
-- This project is [MIT](https://github.com/Anna-Myzukina/flutter_animated_emoji/blob/main/LICENSE) licensed.
+- This project is [MIT](https://github.com/Anna-Myzukina/my_gemini_app/blob/main/LICENSE) licensed.
 
 
 ## Authors
